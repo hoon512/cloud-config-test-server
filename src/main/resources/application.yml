@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-config-test-server
+server:
+  port: 9999
+
+custom:
+  property-name: default-property
+  value: 1
+  list:
+    - 1
+    - 2
+    - 3
+    - 4

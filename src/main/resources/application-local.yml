@@ -1,6 +1,12 @@
 server:
   port: 9000
 
+# optional 설정
+# config server에 없으면 local에 있는 property file 사용
+spring:
+  config:
+    import: "optional:configserver:"
+
 custom:
   property-name: local-property
   value: 2

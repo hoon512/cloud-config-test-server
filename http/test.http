@@ -1,5 +1,8 @@
-### describe local configuration
+### describe  configuration
 GET http://localhost:9000/custom/configuration
 
-### describe default configuration
-GET http://localhost:9000/custom/configuration
+### refresh bean
+POST http://localhost:9000/actuator/refresh
+
+### env
+GET http://localhost:9000/actuator/env

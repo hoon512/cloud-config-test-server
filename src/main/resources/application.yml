@@ -15,11 +15,12 @@ spring:
 server:
   port: 9999
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, env
+
 custom:
   property-name: default-property
   value: 1
-  list:
-    - 1
-    - 2
-    - 3
-    - 4

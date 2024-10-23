@@ -7,5 +7,5 @@ import org.springframework.stereotype.Component
 class CustomComponent(
     private val customConfig: CustomConfig
 ) {
-    fun describeConfig(): String = "property name = ${customConfig.propertyName}, value = ${customConfig.value}, list = ${customConfig.list}"
+    fun describeConfig(): String = "property name = ${customConfig.propertyName}, value = ${customConfig.value}"
 }
